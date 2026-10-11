@@ -1,0 +1,3 @@
+Mobile source: mobile/
+Backend source: backend/
+Environment files, API keys, databases, logs, installed dependencies and builds are excluded. Configure your own environment variables. This export is not a verified release build.

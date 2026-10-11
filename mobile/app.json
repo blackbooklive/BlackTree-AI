@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "BlackTree AI",
+    "slug": "blacktree-ai",
+    "scheme": "vibecode",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.vibecode.aistudio.tcixqq",
+      "buildNumber": "12",
+      "infoPlist": {
+        "NSCameraUsageDescription": "BlackTree AI uses the camera to capture photos inside the app before you publish them.",
+        "NSMicrophoneUsageDescription": "BlackTree AI uses the microphone to record audio tracks that the app attaches to your creations.",
+        "NSPhotoLibraryUsageDescription": "BlackTree AI accesses your photo library so you can move media between the app and your library.",
+        "NSPhotoLibraryAddUsageDescription": "BlackTree AI saves media you export from the app into your photo library.",
+        "NSLocationWhenInUseUsageDescription": "BlackTree AI uses your location to show nearby content and services while you use the app."
+      }
+    },
+    "android": {
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "BlackTree AI uses the camera to capture photos inside the app before you publish them.",
+          "microphonePermission": "BlackTree AI uses the microphone to record audio tracks that the app attaches to your creations.",
+          "recordAudioAndroid": false
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "icon": "./icon.png"
+  }
+}
